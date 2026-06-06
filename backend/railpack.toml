@@ -1,0 +1,2 @@
+[tool.railpack]  
+python_version = "3.11" 
