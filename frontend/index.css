@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* El fondo gris y la fuente Inter que tenías */
+body {
+  background-color: #f3f4f6;
+  font-family: 'Inter', sans-serif;
+}
