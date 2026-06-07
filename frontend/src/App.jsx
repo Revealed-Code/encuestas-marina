@@ -3,7 +3,7 @@ import axios from 'axios';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 function App() {
-  // --- CONTROL DE VISTAS ---
+  // --- CONTROL DE VIS   TAS ---
   const [modoAdmin, setModoAdmin] = useState(false);
   const [stats, setStats] = useState({ total: 0, promedios: [] });
 
