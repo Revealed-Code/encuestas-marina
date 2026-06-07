@@ -40,7 +40,7 @@ function App() {
   ];
 
   // IP asignada a tu backend según tus capturas de pantalla
-  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://192.168.1.106:8000';
+    const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://encuestas-marina-production.up.railway.app';
 
   // --- CONTROL ANTI-SPAM (VOTO DUPLICADO) ---
   useEffect(() => {
