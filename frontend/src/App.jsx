@@ -27,18 +27,20 @@ function App() {
     p4_calidad_conexion: 5,
     p5_estado_equipos: 5,
     p6_comunicacion: 5,
+    p7_satisfaccion_tic: 5,
+    p8_satisfaccion_global: 5,
     comentarios: ""
   });
 
-  const preguntasEncuesta = [
-    { id: 1, texto: "Servicio de correo electrónico institucional" },
-    { id: 2, texto: "Servicio de Internet de la sede EESMM" },
-    { id: 3, texto: "Servicio de internet inalámbrico (wifi) en la sede EESMM" },
-    { id: 4, texto: "Servicio de telefonía" },
-    { id: 5, texto: "Servicio que brinda el personal de la unidad de soporte técnico para la solución de problemas tecnológicos" },
-    { id: 6, texto: "Sistemas informáticos con los que cuenta desarrollando sus labores" },
-    { id: 7, texto: "Grado de satisfacción de los requerimientos solicitados a la unidad T.I.C" },
-    { id: 8, texto: "Satisfacción global que tiene usted hacia la unidad de tecnología" }
+  const preguntas = [
+    { id: 'p1_trato', label: 'Servicio de correo electrónico institucional' },
+    { id: 'p2_efectividad', label: 'Servicio de Internet de la sede EESMM' },
+    { id: 'p3_facilidad_reporte', label: 'Servicio de internet inalámbrico (wifi) en la sede EESMM' },
+    { id: 'p4_calidad_conexion', label: 'Servicio de telefonía' },
+    { id: 'p5_estado_equipos', label: 'Servicio que brinda el personal de la unidad de soporte técnico para la solución de problemas tecnológicos' },
+    { id: 'p6_comunicacion', label: 'Sistemas informáticos con los que cuenta desarrollando sus labores' },
+    { id: 'p7_satisfaccion_tic', label: 'Grado de satisfacción de los requerimientos solicitados a la unidad T.I.C' },
+    { id: 'p8_satisfaccion_global', label: 'Satisfacción global que tiene usted hacia la unidad de tecnología' }
   ];
 
   // IP asignada a tu backend según tus capturas de pantalla
