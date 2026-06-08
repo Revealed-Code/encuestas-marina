@@ -30,13 +30,15 @@ function App() {
     comentarios: ""
   });
 
-  const preguntas = [
-    { id: 'p1_trato', label: '¿Cómo califica el trato del personal?' },
-    { id: 'p2_efectividad', label: '¿Qué tan efectiva fue la solución?' },
-    { id: 'p3_facilidad_reporte', label: '¿Qué tan fácil fue reportar el problema?' },
-    { id: 'p4_calidad_conexion', label: 'Calidad de la conexión a internet' },
-    { id: 'p5_estado_equipos', label: 'Estado físico de los equipos' },
-    { id: 'p6_comunicacion', label: 'Claridad en la comunicación' }
+  const preguntasEncuesta = [
+    { id: 1, texto: "Servicio de correo electrónico institucional" },
+    { id: 2, texto: "Servicio de Internet de la sede EESMM" },
+    { id: 3, texto: "Servicio de internet inalámbrico (wifi) en la sede EESMM" },
+    { id: 4, texto: "Servicio de telefonía" },
+    { id: 5, texto: "Servicio que brinda el personal de la unidad de soporte técnico para la solución de problemas tecnológicos" },
+    { id: 6, texto: "Sistemas informáticos con los que cuenta desarrollando sus labores" },
+    { id: 7, texto: "Grado de satisfacción de los requerimientos solicitados a la unidad T.I.C" },
+    { id: 8, texto: "Satisfacción global que tiene usted hacia la unidad de tecnología" }
   ];
 
   // IP asignada a tu backend según tus capturas de pantalla
