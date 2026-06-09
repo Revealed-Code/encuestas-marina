@@ -25,9 +25,11 @@ class Encuesta(Base):
     p4_calidad_conexion = Column(Integer)
     p5_estado_equipos = Column(Integer)
     p6_comunicacion = Column(Integer)
+    p7_satisfaccion_tic = Column(Integer)
+    p8_satisfaccion_global = Column(Integer)
     
     comentarios = Column(String, nullable=True)
     fecha_creacion = Column(String) # O DateTime si prefieres, pero String es más simple para SQLite si guardas ISO strings
 
-    # 🌟 CAMBIO: Usa back_populates apuntando al campo de la tabla Departamento
+    # 🌟 CAMBIO: Usa back_populates apuntando al campo de la tabla Departame nto
     departamento = relationship("Departamento", back_populates="encuestas")
